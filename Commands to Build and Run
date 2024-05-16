@@ -1,0 +1,16 @@
+## Build ##
+
+docker build -f /root/firefox-docker -t foxy .
+OR docker build -f firefox-docker -t foxy . (depending on the location of your docker file)
+
+firefox-docker - Name of the dockerfile
+-f - Specify the location of your docker file if you have a custom file name.
+-t - Name of your image.
+foxy - fancy name for the docker-firefox image.
+
+## Run ##
+
+docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix foxy
+
+--rm - delete container on exiting your app in container.
+
