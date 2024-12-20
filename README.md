@@ -24,4 +24,4 @@ This project is licensed under the MIT License - refer to the [LICENSE](LICENSE)
 
 ### Limitations
 
-Foxy has been tested only on Docker running on Linux. Please note that audio functionality is not supported in the Firefox browser due to missing audio packages in the container. This feature will be added in future versions.
+Foxy has been tested only on Docker running on Linux.
