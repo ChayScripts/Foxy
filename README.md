@@ -24,4 +24,4 @@ This project is licensed under the MIT License - refer to the [LICENSE](LICENSE)
 
 ### Limitations
 
-Foxy has been tested only on Docker running on Linux.
+Foxy has been tested only on Docker running on Linux. Use the deb file if you need audio in the browser.
